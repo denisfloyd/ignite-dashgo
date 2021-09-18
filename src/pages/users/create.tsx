@@ -7,15 +7,6 @@ import {
   HStack,
   SimpleGrid,
   Button,
-  Icon,
-  Table,
-  Thead,
-  Tr,
-  Th,
-  Tbody,
-  Td,
-  Checkbox,
-  Text,
 } from "@chakra-ui/react";
 import { Input } from "../../components/Form/Input";
 
