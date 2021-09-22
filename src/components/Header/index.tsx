@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, useBreakpointValue } from "@chakra-ui/react";
 
 import { Logo } from "./Logo";
 import { NotificationsNav } from "./NotificationsNav";
