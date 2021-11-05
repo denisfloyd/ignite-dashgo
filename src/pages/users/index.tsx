@@ -102,25 +102,16 @@ export default function UserList() {
                   })}
                 </Tbody>
               </Table>
-              <Pagination />
+
+              <Pagination
+                totalCountOfRegisters={200}
+                currentPage={5}
+                onPageChange={() => {}}
+              />
             </>
           )}
         </Box>
       </Flex>
     </Box>
   );
-}
-
-{
-  /* <Td>
-  <Button
-    as="a"
-    size="sm"
-    fontSize="sm"
-    colorScheme="purple"
-    leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
-  >
-    {isWideVersion ? "Editar" : ""}
-  </Button>
-</Td> */
 }
